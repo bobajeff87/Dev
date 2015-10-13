@@ -7,20 +7,68 @@ overflow: hidden;}
 .backgroundImg img {height: 350px;
 width: 100%;}
 
-.paragraph {width: 30%;
-  position: absolute;
-float: right;
-right:40%;
-text-align: center;
-visibility: hidden;}
-
 .homeheader {align-content: center;
 left: 40px;}
 
 .hexGroup {content: auto;
-width: 70%;
+  position: relative;
+  top: auto;
+  bottom: auto;
+width: auto;
 margin-left: auto;
 margin-right: auto;}
+
+.development {background: #22313f;
+  opacity: 0.9;
+  position: relative;
+  top: 350px;
+color: #eee;
+width: auto;
+height: 300px;
+align-content: center;}
+
+.development p {width: 100%;
+    position: absolute;
+    align-content: center;
+  text-align: center;}
+
+.design {background: #86e2d5;
+  opacity: 0.9;
+  position: relative;
+  top: 350px;
+color: #eee;
+width: auto;
+height: 300px;
+align-content: center;}
+
+.words {background: #59abe3;
+  opacity: 0.9;
+  position: relative;
+  top: 350px;
+color: #eee;
+width: auto;
+height: 300px;
+align-content: center;}
+
+.about {background: #1ba39c;
+  opacity: 0.9;
+  position: relative;
+  top: 350px;
+color: #eee;
+width: auto;
+height: 300px;
+align-content: center;}
+
+.contact {background: #80b971;
+  opacity: 0.9;
+  position: relative;
+  top: 350px;
+color: #eee;
+width: auto;
+height: 300px;
+align-content: center;}
+
+
 
 /* HEX CODE FOR SHAPES */
 
