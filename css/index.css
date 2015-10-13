@@ -7,6 +7,21 @@ overflow: hidden;}
 .backgroundImg img {height: 350px;
 width: 100%;}
 
+.paragraph {width: 30%;
+  position: absolute;
+float: right;
+right:40%;
+text-align: center;
+visibility: hidden;}
+
+.homeheader {align-content: center;
+left: 40px;}
+
+.hexGroup {content: auto;
+width: 70%;
+margin-left: auto;
+margin-right: auto;}
+
 /* HEX CODE FOR SHAPES */
 
 .hex {
@@ -55,31 +70,6 @@ width: 100%;}
         transform: rotate(-60deg);
     }
 
-    .hex .corner-1:before,
-    .hex .corner-2:before {
-        width: 173px;
-        height:    173px;
-      content: '';
-      position: absolute;
-      background: inherit;
-      top:0;
-      left: 0;
-      z-index: 1;
-      background: inherit;
-      background-repeat:no-repeat;
-        backface-visibility: hidden;
-    }
-
-    .hex .corner-1:before {
-        transform: rotate(-60deg) translate(-87px, 0px);
-      transform-origin: 0 0;
-    }
-
-    .hex .corner-2:before {
-        transform: rotate(60deg) translate(-48px, -11px);
-        bottom:0;
-    }
-
     /* Custom styles FOR HEX CODE */
     .hex .inner {
         color:#eee;
@@ -104,7 +94,31 @@ width: 100%;}
     }
 
     .hex.hex-3 {
-        top:20px;
+        top:170px;
         background: #80b971;
+        left: 270px;
+    }
+
+    .hex.hex-4 {
+        top:40px;
+        background: #59abe3;
         left: 200px;
+    }
+
+    .hex.hex-5 {
+        top:170px;
+        background: #22313f;
+        left: 130px;
+    }
+
+    .hex.hex-6 {
+        top:40px;
+        background: #86e2d5;
+        left: 60px;
+    }
+
+    .hex.hex-7 {
+        top:170px;
+        background: #1ba39c;
+        left: -10px;
     }
