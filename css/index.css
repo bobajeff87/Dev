@@ -10,7 +10,7 @@ width: 100%;}
 .homeheader {align-content: center;
 left: 40px;}
 
-.hexGroup {content: auto;
+.hexGroup {align-content: auto;
   position: relative;
   top: auto;
   bottom: auto;
@@ -32,11 +32,16 @@ align-content: center;}
     align-content: center;
   text-align: center;}
 
-.design {background: #86e2d5;
+.development h3 {float: left;}
+
+.development p ul li{list-style-type: none;
+}
+
+.design {background: #ffffff;
   opacity: 0.9;
   position: relative;
   top: 350px;
-color: #eee;
+color: #000000;
 width: auto;
 height: 300px;
 align-content: center;}
